@@ -20,7 +20,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
+// Import ElasticInputModule
 import { ElasticInputModule } from 'ng-elastic-input';
 
 @NgModule({
@@ -30,7 +30,7 @@ import { ElasticInputModule } from 'ng-elastic-input';
   imports: [
     BrowserModule,
 
-    // Specify your library as an import
+    // Specify ElasticInputModule as an import
     ElasticInputModule
   ],
   providers: [],
